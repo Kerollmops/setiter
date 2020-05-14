@@ -219,7 +219,7 @@ mod bench {
     use crate::set::SetBuf;
 
     #[derive(Debug, Clone)]
-    pub struct Foo {
+    struct Foo {
         a: i32,
         b: u8
     }
